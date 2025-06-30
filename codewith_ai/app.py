@@ -7,3 +7,6 @@ def load_html():
 
 st.set_page_config(page_title="Delicious Food", layout="wide")
 st.components.v1.html(load_html(), height=1800, scrolling=True)
+st.components.v1.html("""
+    <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800" width="400">
+""", height=500)
